@@ -25,7 +25,7 @@ backend and [Angular][angular] in [JavaScript][js] for the frontend.
 To run the application, you will need:
 
 - The [Java][java] 25 JRE
-- [PostgreSQL][postgresql] 12-18
+- [PostgreSQL][postgresql] 14-18
 
 Additionally, to compile the backend and frontend, you will need:
 
