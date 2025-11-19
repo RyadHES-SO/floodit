@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.3.5</version>
+    <version>3.5.7</version>
     <relativePath/>
   </parent>
 
@@ -40,26 +40,26 @@
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
       <scope>runtime</scope>
-      <version>42.7.4</version>
+      <version>42.7.8</version>
     </dependency>
 
     <!-- Flyway database migrations -->
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-core</artifactId>
-      <version>10.21.0</version>
+      <version>11.17.0</version>
     </dependency>
     <dependency>
       <groupId>org.flywaydb</groupId>
       <artifactId>flyway-database-postgresql</artifactId>
-      <version>10.21.0</version>
+      <version>11.17.0</version>
     </dependency>
 
     <!-- Utilities -->
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>3.17.0</version>
+      <version>3.20.0</version>
     </dependency>
 
     <!-- Test dependencies -->
@@ -81,7 +81,7 @@
     <dependency>
       <groupId>org.jacoco</groupId>
       <artifactId>jacoco-maven-plugin</artifactId>
-      <version>0.8.12</version>
+      <version>0.8.14</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -99,7 +99,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.12</version>
+        <version>0.8.14</version>
         <configuration>
           <excludes>
             <exclude>**/FloodItApplication.class</exclude>
