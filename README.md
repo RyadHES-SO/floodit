@@ -238,7 +238,7 @@ from the `backend` directory in the repository:
 
 ```bash
 cd backend
-java -jar target/floodit-1.0.0-SNAPSHOT.jar
+java -jar target/floodit-1.1.0-SNAPSHOT.jar
 ```
 
 You can use your favorite web server and reverse proxy (e.g. Apache/nginx) to
